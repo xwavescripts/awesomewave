@@ -1,0 +1,478 @@
+
+
+local AwesomeWave = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local _0vj29f = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local iof0k1 = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local jv02ojf = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local k0ffk1 = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local _09fkef9f1 = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+AwesomeWave.Name = "AwesomeWave"
+AwesomeWave.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = AwesomeWave
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.0925633013, 0, 0.0725311786, 0)
+Main.Size = UDim2.new(0.317567468, 0, 0.450175643, 0)
+Main.ZIndex = 0
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(-0.00373611134, 0, 0, 0)
+Title.Size = UDim2.new(1.00124502, 0, 0.275040179, 0)
+Title.Font = Enum.Font.LuckiestGuy
+Title.Text = "AWESOMEWAVE"
+Title.TextColor3 = Color3.fromRGB(41, 220, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(172, 255, 182)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(193, 255, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Main
+
+_0vj29f.Name = "0vj29f"
+_0vj29f.Parent = Main
+_0vj29f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0vj29f.Position = UDim2.new(0, 0, 0.85044384, 0)
+_0vj29f.Size = UDim2.new(0, 296, 0, 40)
+_0vj29f.Font = Enum.Font.Ubuntu
+_0vj29f.Text = "IShowSpeed [Reset To Stop]"
+_0vj29f.TextColor3 = Color3.fromRGB(64, 124, 255)
+_0vj29f.TextScaled = true
+_0vj29f.TextSize = 14.000
+_0vj29f.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = _0vj29f
+
+UICorner_2.Parent = _0vj29f
+
+close.Name = "close"
+close.Parent = Main
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.736905754, 0, 0.184354812, 0)
+close.Size = UDim2.new(0, 105, 0, 245)
+close.Font = Enum.Font.Unknown
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = close
+
+UICorner_3.Parent = close
+
+iof0k1.Name = "iof0k1"
+iof0k1.Parent = Main
+iof0k1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iof0k1.Position = UDim2.new(-0.00249124784, 0, 0.517784238, 0)
+iof0k1.Size = UDim2.new(0, 297, 0, 52)
+iof0k1.Font = Enum.Font.Ubuntu
+iof0k1.Text = "Infinite Jump"
+iof0k1.TextColor3 = Color3.fromRGB(64, 124, 255)
+iof0k1.TextScaled = true
+iof0k1.TextSize = 14.000
+iof0k1.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = iof0k1
+
+UICorner_4.Parent = iof0k1
+
+jv02ojf.Name = "jv02ojf"
+jv02ojf.Parent = Main
+jv02ojf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jv02ojf.Position = UDim2.new(0, 0, 0.351864457, 0)
+jv02ojf.Size = UDim2.new(0, 296, 0, 52)
+jv02ojf.Font = Enum.Font.Ubuntu
+jv02ojf.Text = "Fly [G]"
+jv02ojf.TextColor3 = Color3.fromRGB(64, 124, 255)
+jv02ojf.TextScaled = true
+jv02ojf.TextSize = 14.000
+jv02ojf.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = jv02ojf
+
+UICorner_5.Parent = jv02ojf
+
+k0ffk1.Name = "k0ffk1"
+k0ffk1.Parent = Main
+k0ffk1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+k0ffk1.Position = UDim2.new(0.0224212296, 0, 0.684524119, 0)
+k0ffk1.Size = UDim2.new(0, 287, 0, 52)
+k0ffk1.Font = Enum.Font.Ubuntu
+k0ffk1.Text = "Noclip GUI"
+k0ffk1.TextColor3 = Color3.fromRGB(64, 124, 255)
+k0ffk1.TextScaled = true
+k0ffk1.TextSize = 14.000
+k0ffk1.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Parent = k0ffk1
+
+UICorner_6.Parent = k0ffk1
+
+_09fkef9f1.Name = "09fkef9f1"
+_09fkef9f1.Parent = Main
+_09fkef9f1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_09fkef9f1.Position = UDim2.new(0.0224212296, 0, 0.18459034, 0)
+_09fkef9f1.Size = UDim2.new(0, 287, 0, 52)
+_09fkef9f1.Font = Enum.Font.Ubuntu
+_09fkef9f1.Text = "Super Human (W.I.P)"
+_09fkef9f1.TextColor3 = Color3.fromRGB(64, 124, 255)
+_09fkef9f1.TextScaled = true
+_09fkef9f1.TextSize = 14.000
+_09fkef9f1.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Parent = _09fkef9f1
+
+UICorner_7.Parent = _09fkef9f1
+
+-- Scripts:
+
+local function NSHA_fake_script() -- AwesomeWave.DragScript 
+	local script = Instance.new('LocalScript', AwesomeWave)
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent.Main
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NSHA_fake_script)()
+local function FSZSN_fake_script() -- _0vj29f.fk01 
+	local script = Instance.new('LocalScript', _0vj29f)
+
+	script.Parent.MouseButton1Click:Connect(function(pb)
+		_G.WS = "1000";
+		local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+		Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+			Humanoid.WalkSpeed = _G.WS;
+		end)
+		Humanoid.WalkSpeed = _G.WS;
+	
+		_G.WS = "55";
+		local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+		Humanoid:GetPropertyChangedSignal("JumpPower"):Connect(function()
+			Humanoid.JumpPower = _G.WS;
+		end)
+		Humanoid.JumpPower = _G.WS;
+	end)
+end
+coroutine.wrap(FSZSN_fake_script)()
+local function BEOII_fake_script() -- close.Script 
+	local script = Instance.new('Script', close)
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		script.Parent.Parent.Parent.main.Visible = false
+	end)
+end
+coroutine.wrap(BEOII_fake_script)()
+local function VBDNDZN_fake_script() -- iof0k1.InifniteJump 
+	local script = Instance.new('LocalScript', iof0k1)
+
+	local p = script.Parent
+	p.MouseButton1Click:Connect(function(plrr)
+	
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		_G.JumpHeight = 50;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(VBDNDZN_fake_script)()
+local function WNGUR_fake_script() -- jv02ojf.Fly 
+	local script = Instance.new('LocalScript', jv02ojf)
+
+	-- Fly (LocalScript) Press G To Toggle
+	script.Parent.MouseButton1Click:Connect(function(player_button)
+		repeat wait() 
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+		local mouse = game.Players.LocalPlayer:GetMouse() 
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer 
+		local torso = plr.Character.Head 
+		local flying = false
+		local deb = true 
+		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local maxspeed = 400 
+		local speed = 5000 
+	
+		function Fly() 
+			local bg = Instance.new("BodyGyro", torso) 
+			bg.P = 9e4 
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+			bg.cframe = torso.CFrame 
+			local bv = Instance.new("BodyVelocity", torso) 
+			bv.velocity = Vector3.new(0,0.1,0) 
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+			repeat wait() 
+				plr.Character.Humanoid.PlatformStand = true 
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+					speed = speed+.5+(speed/maxspeed) 
+					if speed > maxspeed then 
+						speed = maxspeed 
+					end 
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+					speed = speed-1 
+					if speed < 0 then 
+						speed = 0 
+					end 
+				end 
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				else 
+					bv.velocity = Vector3.new(0,0.1,0) 
+				end 
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+			until not flying 
+			ctrl = {f = 0, b = 0, l = 0, r = 0} 
+			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+			speed = 0 
+			bg:Destroy() 
+			bv:Destroy() 
+			plr.Character.Humanoid.PlatformStand = false 
+		end 
+		mouse.KeyDown:connect(function(key) 
+			if key:lower() == "g" then 
+				if flying then flying = false 
+				else 
+					flying = true 
+					Fly() 
+				end 
+			elseif key:lower() == "w" then 
+				ctrl.f = 1 
+			elseif key:lower() == "s" then 
+				ctrl.b = -1 
+			elseif key:lower() == "a" then 
+				ctrl.l = -1 
+			elseif key:lower() == "d" then 
+				ctrl.r = 1 
+			end 
+		end) 
+		mouse.KeyUp:connect(function(key) 
+			if key:lower() == "w" then 
+				ctrl.f = 0 
+			elseif key:lower() == "s" then 
+				ctrl.b = 0 
+			elseif key:lower() == "a" then 
+				ctrl.l = 0 
+			elseif key:lower() == "d" then 
+				ctrl.r = 0 
+			end 
+		end)
+		Fly()
+	end)
+end
+coroutine.wrap(WNGUR_fake_script)()
+local function EVZX_fake_script() -- k0ffk1.NoclipGui 
+	local script = Instance.new('LocalScript', k0ffk1)
+
+	script.Parent.MouseButton1Click:Connect(function(plrr)
+	
+		local Workspace = game:GetService("Workspace")
+		local CoreGui = game:GetService("CoreGui")
+		local Players = game:GetService("Players")
+		local Noclip = Instance.new("ScreenGui")
+		local BG = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local Toggle = Instance.new("TextButton")
+		local StatusPF = Instance.new("TextLabel")
+		local Status = Instance.new("TextLabel")
+		local Credit = Instance.new("TextLabel")
+		local Plr = Players.LocalPlayer
+		local Clipon = false
+	
+		Noclip.Name = "Noclip"
+		Noclip.Parent = game.CoreGui
+	
+		BG.Name = "BG"
+		BG.Parent = Noclip
+		BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+		BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+		BG.BorderSizePixel = 2
+		BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+		BG.Size = UDim2.new(0, 210, 0, 127)
+		BG.Active = true
+		BG.Draggable = true
+	
+		Title.Name = "Title"
+		Title.Parent = BG
+		Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+		Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+		Title.BorderSizePixel = 2
+		Title.Size = UDim2.new(0, 210, 0, 33)
+		Title.Font = Enum.Font.Highway
+		Title.Text = "Noclip"
+		Title.TextColor3 = Color3.new(1, 1, 1)
+		Title.FontSize = Enum.FontSize.Size32
+		Title.TextSize = 30
+		Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+		Title.TextStrokeTransparency = 0
+	
+		Toggle.Parent = BG
+		Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+		Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+		Toggle.BorderSizePixel = 2
+		Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+		Toggle.Size = UDim2.new(0, 146, 0, 36)
+		Toggle.Font = Enum.Font.Highway
+		Toggle.FontSize = Enum.FontSize.Size28
+		Toggle.Text = "Toggle"
+		Toggle.TextColor3 = Color3.new(1, 1, 1)
+		Toggle.TextSize = 25
+		Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+		Toggle.TextStrokeTransparency = 0
+	
+		StatusPF.Name = "StatusPF"
+		StatusPF.Parent = BG
+		StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+		StatusPF.BackgroundTransparency = 1
+		StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+		StatusPF.Size = UDim2.new(0, 56, 0, 20)
+		StatusPF.Font = Enum.Font.Highway
+		StatusPF.FontSize = Enum.FontSize.Size24
+		StatusPF.Text = "Status:"
+		StatusPF.TextColor3 = Color3.new(1, 1, 1)
+		StatusPF.TextSize = 20
+		StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+		StatusPF.TextStrokeTransparency = 0
+		StatusPF.TextWrapped = true
+	
+		Status.Name = "Status"
+		Status.Parent = BG
+		Status.BackgroundColor3 = Color3.new(1, 1, 1)
+		Status.BackgroundTransparency = 1
+		Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+		Status.Size = UDim2.new(0, 56, 0, 20)
+		Status.Font = Enum.Font.Highway
+		Status.FontSize = Enum.FontSize.Size14
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(0.666667, 0, 0)
+		Status.TextScaled = true
+		Status.TextSize = 14
+		Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+		Status.TextWrapped = true
+		Status.TextXAlignment = Enum.TextXAlignment.Left
+	
+		Credit.Name = "Credit"
+		Credit.Parent = BG
+		Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+		Credit.BackgroundTransparency = 1
+		Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+		Credit.Size = UDim2.new(0, 128, 0, 17)
+		Credit.Font = Enum.Font.SourceSans
+		Credit.FontSize = Enum.FontSize.Size18
+		Credit.Text = "Created by XWave"
+		Credit.TextColor3 = Color3.new(1, 1, 1)
+		Credit.TextSize = 16
+		Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+		Credit.TextStrokeTransparency = 0
+		Credit.TextWrapped = true
+	
+		Toggle.MouseButton1Click:connect(function()
+			if Status.Text == "off" then
+				Clipon = true
+				Status.Text = "on"
+				Status.TextColor3 = Color3.new(0,185,0)
+				Stepped = game:GetService("RunService").Stepped:Connect(function()
+					if not Clipon == false then
+						for a, b in pairs(Workspace:GetChildren()) do
+							if b.Name == Plr.Name then
+								for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+									if v:IsA("BasePart") then
+										v.CanCollide = false
+									end end end end
+					else
+						Stepped:Disconnect()
+					end
+				end)
+			elseif Status.Text == "on" then
+				Clipon = false
+				Status.Text = "off"
+				Status.TextColor3 = Color3.new(170,0,0)
+			end
+		end)
+	end)
+end
+coroutine.wrap(EVZX_fake_script)()
